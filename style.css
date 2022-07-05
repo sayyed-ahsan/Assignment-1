@@ -1,3 +1,89 @@
+/* google font */
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* first banner section with h1, p and button */
+
+#banner {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    margin: 0%;
+    color: rgb(0, 252, 67);
+    font-size: 55px;
+    font-weight: 900;
+
+}
+
+.white-p {
+    color: white;
+}
+
+/* button */
+
+button {
+    background-color: #64fb80;
+    border: none;
+    color: rgb(0, 0, 0);
+    margin: 20px 20px 20px;
+    padding: 15px 20px 14px 20px;
+    font: 20px sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* second section */
+
+#donate-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.donate {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.amount {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.unselected-amount {
+    padding: 45px 40px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(82, 79, 79);
+    margin: 10px;
+    background-color: rgba(190, 201, 191, 0.522);
+}
+
+#selected-amount {
+    padding: 45px 40px;
+    border: 5px solid #55ff74;
+    background-color: #ccf4d3;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(4, 92, 9);
+    margin: 10px;
 }
