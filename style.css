@@ -5,14 +5,18 @@ body {
     margin: 0px;
 }
 
-p {
+#banner p {
     font-size: 20px;
+}
+
+p {
+    font-size: 18px;
 }
 
 /* first banner section with h1, p and button */
 
 #banner {
-    background-image: url(images/donation7.jpg);
+    background-image: url(images/canva.png);
     background-repeat: no-repeat;
     height: 700px;
     display: flex;
@@ -23,7 +27,7 @@ p {
 
 .banner-title {
     margin: 0%;
-    color: rgb(0, 252, 67);
+    color: rgb(255, 255, 255);
     font-size: 55px;
     font-weight: 900;
 
@@ -36,9 +40,9 @@ p {
 /* button */
 
 button {
-    background-color: #64fb80;
+    background-color: rgb(255, 89, 89);
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin: 20px 20px 20px;
     padding: 15px 20px 14px 20px;
     font: 20px sans-serif;
@@ -63,8 +67,8 @@ button {
 .amount {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .unselected-amount {
@@ -72,18 +76,142 @@ button {
     border-radius: 5px;
     font-weight: 900;
     font-size: 20px;
-    color: rgb(82, 79, 79);
+    color: rgb(159, 159, 159);
     margin: 10px;
-    background-color: rgba(190, 201, 191, 0.522);
+    background-color: rgba(234, 234, 234, 0.522);
 }
 
 #selected-amount {
     padding: 45px 40px;
-    border: 5px solid #55ff74;
-    background-color: #ccf4d3;
+    border: 2px solid rgb(255, 89, 89);
+    background-color: rgb(255, 244, 244);
     border-radius: 5px;
     font-weight: 900;
     font-size: 20px;
-    color: rgb(4, 92, 9);
+    color: rgb(255, 89, 89);
     margin: 10px;
+}
+
+.other-amount {
+    border-bottom: 2px solid gray;
+    text-align: center;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    padding: 10px 200px 10px;
+    font-size: 25px;
+}
+
+/* <!-- donate plan (3rd section) --> */
+
+#donate-plan {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+}
+
+#plans {
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.plan-card {
+    display: block;
+    padding: 60px 25px 54px;
+    text-align: justify;
+    background-color: lightcyan;
+    border-radius: 8px;
+    width: 352px;
+    margin: 24px;
+
+}
+
+.plan-card2 {
+    display: block;
+    padding: 60px 25px 54px;
+    text-align: justify;
+    background-color: rgb(224, 255, 224);
+    border-radius: 8px;
+    width: 352px;
+    margin: 24px;
+
+}
+
+.plan-card3 {
+    display: block;
+    padding: 60px 25px 54px;
+    text-align: justify;
+    background-color: rgb(255, 255, 224);
+    border-radius: 8px;
+    width: 352px;
+    margin: 24px;
+
+}
+
+.plan-card img {
+    width: 58.13px;
+    height: 49.77px;
+}
+
+.plan-card2 img {
+    width: 58.13px;
+    height: 49.77px;
+}
+
+.plan-card3 img {
+    width: 58.13px;
+    height: 49.77px;
+}
+
+/* subscribe section (5th) */
+
+#subscribe-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.give-mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#input-box {
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.humble {
+    font-size: 70px;
+    font-family: 'The Nautigal', cursive;
+    color: firebrick;
+}
+
+footer p {
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
 }
