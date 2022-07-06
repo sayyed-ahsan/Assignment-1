@@ -183,7 +183,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 150px;
-    width: 550px;
+    width: 700px;
     margin-top: 60px;
     background-color: rgb(255, 244, 214);
     margin-left: auto;
@@ -194,25 +194,25 @@ p {
     height: 40px;
     width: 200px;
     margin: 0px;
+    padding-left: 15px;
     background-color: rgb(220, 220, 220);
-    border-right: 0px;
-    border-left: 0px;
-    border-top: 0px;
-    border-bottom: 0px;
+    border: 0px;
     font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 #submit-button {
-    border-radius: 0px;
-    height: 40px;
+    border: 0px;
     width: 150px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
     margin-left: auto;
     text-align: center;
-    border-right: 0px;
-    border-left: 0px;
-    border-top: 0px;
-    border-bottom: 0px;
     background-color: rgb(255, 89, 89);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 
