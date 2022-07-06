@@ -163,7 +163,7 @@ p {
     height: 49.77px;
 }
 
-/* < !-- Our achivement 4th section -->*/
+/* < !-- Our achivement and goal 4th section -->*/
 
 .achivement-section {
     justify-content: center;
@@ -177,20 +177,10 @@ p {
     align-items: center;
 }
 
-.one-img-halfdiv {
+.half-width {
     display: block;
     padding: 60px 25px 54px;
     text-align: justify;
-    border-radius: 8px;
-    width: 600px;
-    margin: 24px;
-}
-
-.two-img-halfdiv {
-    display: block;
-    padding: 60px 25px 54px;
-    text-align: justify;
-    border-radius: 8px;
     width: 600px;
     margin: 24px;
 }
@@ -203,17 +193,9 @@ p {
     width: 190px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.read-title {
+    color: rgb(255, 89, 89);
+}
 
 /* subscribe section (5th) */
 
@@ -221,7 +203,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 .give-email {
