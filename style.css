@@ -57,11 +57,13 @@ p {
     align-items: center;
     text-align: center;
     margin-top: 130px;
+    margin-bottom: 130;
 }
 
 .donate {
     font-size: 50px;
     font-weight: 900;
+    text-align: center;
 }
 
 .amount {
@@ -104,6 +106,10 @@ p {
 
 /* <!-- donate plan (3rd section) --> */
 
+#donate-plan-section {
+    margin-bottom: 130px;
+}
+
 #donate-plan {
     justify-content: center;
     align-items: center;
@@ -116,45 +122,33 @@ p {
     justify-content: center;
 }
 
+.card-common {
+    display: block;
+    padding: 60px 25px 54px;
+    text-align: justify;
+    border-radius: 8px;
+    width: 352px;
+    margin: 24px;
+}
+
+.plan-card1 {
+    background-color: lightcyan;
+}
+
+.plan-card2 {
+    background-color: rgb(224, 255, 224);
+}
+
+.plan-card3 {
+    background-color: rgb(255, 255, 224);
+}
+
 .card-title {
     font-size: 23px;
     font-weight: 800;
 }
 
-.plan-card {
-    display: block;
-    padding: 60px 25px 54px;
-    text-align: justify;
-    background-color: lightcyan;
-    border-radius: 8px;
-    width: 352px;
-    margin: 24px;
-
-}
-
-.plan-card2 {
-    display: block;
-    padding: 60px 25px 54px;
-    text-align: justify;
-    background-color: rgb(224, 255, 224);
-    border-radius: 8px;
-    width: 352px;
-    margin: 24px;
-
-}
-
-.plan-card3 {
-    display: block;
-    padding: 60px 25px 54px;
-    text-align: justify;
-    background-color: rgb(255, 255, 224);
-    border-radius: 8px;
-    width: 352px;
-    margin: 24px;
-
-}
-
-.plan-card img {
+.plan-card1 img {
     width: 58.13px;
     height: 49.77px;
 }
@@ -168,6 +162,58 @@ p {
     width: 58.13px;
     height: 49.77px;
 }
+
+/* < !-- Our achivement 4th section -->*/
+
+.achivement-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#achivement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-img-halfdiv {
+    display: block;
+    padding: 60px 25px 54px;
+    text-align: justify;
+    border-radius: 8px;
+    width: 600px;
+    margin: 24px;
+}
+
+.two-img-halfdiv {
+    display: block;
+    padding: 60px 25px 54px;
+    text-align: justify;
+    border-radius: 8px;
+    width: 600px;
+    margin: 24px;
+}
+
+#one-img {
+    width: 600px;
+}
+
+.two-img {
+    width: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* subscribe section (5th) */
 
@@ -214,18 +260,6 @@ p {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 
